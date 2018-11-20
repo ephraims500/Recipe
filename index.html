@@ -1,0 +1,154 @@
+<!Doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- meyer-reset.css stylesheet -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" />
+    <!-- font-awesome.css stylesheet -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Bootstrap .css sttlesheet -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css">
+    <!-- local.css stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/videomod.css">
+    <title>Recipe</title>
+</head>
+<body>
+        <div class="cooking-pan">
+                <img src="img/cooking_pan.png" alt="cooking pan">
+                <img class="p-recipe-menu" src="img/jollof-and-plaintain.png" alt="recipe menu">
+                <div class="d-menu-wrap">
+                    <div class="d-menu">
+                        <h3>02 <span class="d-bar1">Dinner Menu</span></h3>
+                    </div>
+                    <button class="prev prev-next"></button><button class="next prev-next"></button>
+                </div>
+                <div class="c-social">
+                        <button class="social-icon" style="font-size:24px">
+                                <a href=""><i class="fa fa-twitter color"></i></a>
+                            </button>
+                            <button class="social-icon" style="font-size:24px">
+                                <a href=""><i class="fa fa-linkedin color"></i></a>
+                            </button>
+                        </div>
+            </div>
+    <div class="box b-primary-layout">
+        <div class="navbar">
+            <a class="navbar-brand position" href="">
+                <img src="recipe-logo.png" alt="recipe logo">
+            </a>
+            <form class="form form-horizontal col-sm">
+                <div class="form-group">
+                    <input type="text" name="search" placeholder="Search recipes">
+                    </div>  
+                </form>
+            <ul class="nav justify-content-end">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Recipe</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Trending</a>
+                </li>
+                <li>
+                    <div class="inset">
+                        <i class="fa fa-user-circle-o" style="font-size:30px"></i>  username
+                    </div>
+                </li>
+                <span class="d-bar"></span>
+                <div class="c-burger" onclick="myFunction(this)">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                </div>
+            </ul>
+        </div>
+        <p class="heading-3">&mdash;&mdash;&mdash;  R e c i p e  &mdash;&mdash;&mdash;</p>
+        <div class="pad-wrapper">
+            <div class="padded">
+                <h1 class="padded-multiline">
+                    <span>Rice and chicken with plantain</span>
+                </h1>
+                    <span class="fa fa-star star-rate-checked"></span>
+                    <span class="fa fa-star star-rate-checked"></span>
+                    <span class="fa fa-star star-rate-checked"></span>
+                    <span class="fa fa-star star-rate-checked"></span>
+                    <span class="fa fa-star"></span>
+                    <p><span class="checked star-rate-checked">4.2</span> Reviews</p>
+                </div>
+                    <p>This jollof rice with plantain and chicken is a very nice and<br />delicious nigeria meal that is prepared with many nice ingrdients.</p>
+            </div>
+            <div class="p-images pad-wrapper">
+                    <ul class="p-images-align">
+
+                        <li><a href=""><img class="i-one" src="img/man3.png" alt=""></a></li>
+                        <li><a href=""><img class="i-one" src="img/man4.jpg" alt=""></a></li>
+                        <li><a href=""><img class="i-one" src="img/_MG_0345_edit.png" alt=""></a></li>
+                        <p>20 people have tried to<br />cook this menu.<br /><a href="">see all persons &rarr;</a></p>
+                    </ul>
+                    <button class="btn-blue btn-change">Cook this menu</button>
+                </div>
+                <div class="related r-wrap pad-wrapper">
+                        <p>&mdash;&mdash;&mdash; related &mdash;&mdash;&mdash;</p>
+                        <div class="recipe">
+                            <a href=""><img src="img/fried-rice.png" alt="fried rice">Fried rice</a>
+                                <div class="ratings">
+                                    <span class="fa fa-star star-rate-checked"></span>
+                                    <span class="fa fa-star star-rate-checked"></span>
+                                    <span class="fa fa-star star-rate-checked"></span>
+                                    <span class="fa fa-star star-rate-checked"></span>
+                                    <span class="fa fa-star"></span>
+                                    <p><span class="checked star-rate-checked">4.2</span> Reviews</p>
+                                </div>
+                            
+                            <a href=""><img src="img/stew-rice.png" alt="stew rice">Stew rice</a>
+                            <div class="ratings-1">
+                                    <span class="fa fa-star star-rate-checked"></span>
+                                    <span class="fa fa-star star-rate-checked"></span>
+                                    <span class="fa fa-star star-rate-checked"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span class="fa fa-star"></span>
+                                    <p><span class="checked star-rate-checked">4.2</span> Reviews</p>
+                                </div>
+                            <a href=""><img src="img/jollof-rice.png" alt="jollof rice">Jollof rice</a>
+                            <div class="ratings-2">
+                                    <span class="fa fa-star star-rate-checked"></span>
+                                    <span class="fa fa-star star-rate-checked"></span>
+                                    <span class="fa fa-star star-rate-checked"></span>
+                                    <span class="fa fa-star star-rate-checked"></span>
+                                    <span class="fa fa-star"></span>
+                                    <p><span class="checked star-rate-checked">4.2</span> Reviews</p>
+                                    </div>
+                        </div>
+                </div>
+        </div>
+        
+
+    <div class="box b-opacity-layout wrapper"></div>
+    <div class="box b-opacity-footer-layout wrapper"></div>
+    <div class="footer-video-layout">
+        <div class="w-more">
+            <h4>Watch video how to make it</h4>
+        </div>
+        <i class="fas fa-play-circle btn-blue" id="show"></i>
+    </div>
+
+    <div id="c-video">
+        <div class="video-mode">
+            <video class="video" src="video/recipe.mp4" controls></video>
+        </div>
+    </div>
+
+    <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script><script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="script.js"></script>
+<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script>
+</body>
+</html>
+  
